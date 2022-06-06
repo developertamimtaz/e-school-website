@@ -1,0 +1,156 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.sign-in-button{
+    width: 104px;
+    height: 43px;
+    top: 25px;
+    left: 1201px;
+    border-radius: 33px;
+    padding: 12px 28px 12px 28 px;
+    gap: 10px;
+    background: #21B573;
+    color: white;
+    
+}
+.sign-in-button-no{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 28px;
+    gap: 10px;
+    
+    width: 104px;
+    height: 43px;
+    left: 1201px;
+    top: 25px;
+    background: #21B573;
+    border-radius: 33px;
+}
+.title-section{
+    margin-top: 100px;
+}
+.first-text{
+    color: #FD511A;
+    text-align: left;
+}
+.title-color{
+    color: #21B573;
+}
+.title-section h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.last-text{
+    color: #6C6B6B;
+    text-align: start;
+}
+.get-started-button{
+    width: 153px;
+    height: 49px;
+    left: 205px;
+    top: 470px;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 28px 12px 28 px;
+    gap: 10px;
+    font-size: 16px;
+    color: white;
+    
+}
+
+#men{
+    width: 554px;
+    height: 346px;
+}
+.second-section{
+    margin-top: 100px;
+}
+.card{
+    width: 270px;
+    height: 270px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0.1);
+}
+.card img{
+    width: 68px;
+    height: 76px;
+    left: 1141px;
+    top: 677px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.card h3, p{
+    margin-top: 20px;
+    text-align: center;
+}
+#card4{
+    width: 270px;
+    height: 270px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+}
+.third-section{
+    margin-top: 100px;
+}
+.course-box{
+    box-shadow: 0px 2px 5px;
+    border-radius: 10px;
+    width: 370px;
+    height: 483px;
+    padding-left: 25px;
+    padding-top: 25px;
+    
+}
+ .online-courses{
+     text-align: center;
+     color: #413960;
+     font-weight: 700;
+     margin-bottom: 60px;
+     
+ }
+ .course-card img{
+     width: 331px;
+     height: 234px;
+ }
+.course-card h4{
+    margin-top: 15px;
+}
+.course-card p{
+    text-align: start;
+}
+.buy-course{
+    padding: 8px 28 px;
+    gap: 10px;
+    width: 137px;
+    height: 35px;
+    background: #21B573;
+    border-radius: 33px;
+    color: white;
+    margin-top: 20px;
+}
+.testimonial{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.testimonial{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+.review img{
+    width: 120px;
+    height: 120px;
+    left: 353px;
+}
+.review-text{
+    text-align: center;
+}
+footer{
+    margin-top: 100px;
+    height: 369px;
+    color: white;
+    background: #282531;
+}
