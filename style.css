@@ -142,6 +142,7 @@ body{
 }
 
 .footer {
+    margin-top: 100px;
     height: auto;
     background-color: #282531;
     width: 100%;
