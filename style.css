@@ -13,20 +13,7 @@ body{
     color: white;
     
 }
-.sign-in-button-no{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 12px 28px;
-    gap: 10px;
-    
-    width: 104px;
-    height: 43px;
-    left: 1201px;
-    top: 25px;
-    background: #21B573;
-    border-radius: 33px;
-}
+
 .title-section{
     margin-top: 100px;
 }
@@ -71,7 +58,7 @@ body{
     height: 270px;
     background: #F8FFFB;
     border-radius: 10px;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0.1);
 }
 .card img{
     width: 68px;
@@ -81,9 +68,14 @@ body{
     margin-top: 50px;
     margin-left: 90px;
 }
+
 .card h3, p{
     margin-top: 20px;
     text-align: center;
+}
+.topic-section{
+    margin-top: 100px;
+    
 }
 #card4{
     width: 270px;
@@ -148,9 +140,95 @@ body{
 .review-text{
     text-align: center;
 }
-footer{
-    margin-top: 100px;
-    height: 369px;
-    color: white;
-    background: #282531;
-}
+
+.footer {
+    height: auto;
+    background-color: #282531;
+    width: 100%;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    font-weight: 100;
+    }
+    
+    
+    
+    .footer-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+    margin-top: 15px;
+    }
+    
+    .column {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    }
+    
+    .column-2,
+    .column-3,
+    .column-4 {
+    width: 25%;
+    margin-top: 10px;
+    padding-top: 10px;
+    }
+    
+    @media (min-width: 768px) {
+    .footer-container {
+        width: 750px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+    .footer-container {
+        width: 970px;
+        }
+    }
+    
+    @media (min-width: 1200px) {
+    .footer-container {
+        width: 1170px;
+        }
+    }
+    .footer-header {
+    color: #ffffff;
+    font-weight: 100;
+    }
+    .small-footer-header {
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+    }
+    
+    .footer-support-text {
+    color: #EFF5EF;
+    font-size: 14px;
+    margin-top: 8px;
+    padding-top: 8px;
+    }
+    
+    .footer-link {
+    color: #fff;
+    text-decoration: none;
+    }
+ 
+    
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    a:hover{
+        color: Green;
+        font-size: 20px;
+    }
+    .link{
+        text-decoration: none;
+    }
